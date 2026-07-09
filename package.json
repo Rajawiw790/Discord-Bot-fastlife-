@@ -4,31 +4,19 @@
   "description": "Discord Bot is a bot with which you can run your entire server! With no less than 400+ commands",
   "main": "./src/index.js",
   "scripts": {
-    "echo": "Error: no test specified" && exit 1,
     "start": "node . --trace-warnings",
     "add-dev": "node src/dev.js"
   },
   "keywords": [
-    "Music",
-    "Moderation",
-    "Tickets",
-    "Radio",
-    "Games",
-    "Giveaways",
-    "Customisation",
-    "Economy",
-    "Leveling",
-    "Invites",
-    "Messages",
-    "Utilities",
-    "Suggestions",
-    "Server Stats"
+    "Music", "Moderation", "Tickets", "Radio", "Games", "Giveaways",
+    "Customisation", "Economy", "Leveling", "Invites", "Messages",
+    "Utilities", "Suggestions", "Server Stats"
   ],
   "author": "CorwinDev",
   "license": "ISC",
   "dependencies": {
     "@discordjs/voice": "^0.16.1",
-    "@napi-rs/canvas": "^0.1.52",
+    "@napi-rs/canvas": "^0.1.53",
     "@iamtraction/google-translate": "^2.0.1",
     "axios": "^1.6.2",
     "canvas": "^2.11.2",
@@ -66,4 +54,12 @@
     "parse-ms": "^2.1.0",
     "request": "^2.88.2",
     "superagent": "^8.1.2",
-    "topgg
+    "topgg-autoposter": "^2.0.1",
+    "tutil": "^0.12.5",
+    "weather-js": "^2.0.0",
+    "yield-to-core": "^0.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
